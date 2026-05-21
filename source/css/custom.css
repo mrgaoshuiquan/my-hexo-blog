@@ -9,3 +9,7 @@
 body {
   font-family: 'Butterfly Font', sans-serif !important;
 }
+/* 看板娘左移，避免挡住右下角按钮 */
+#live2d-widget {
+  right: 80px !important;
+}
