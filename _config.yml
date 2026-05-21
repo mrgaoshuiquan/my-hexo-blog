@@ -121,7 +121,7 @@ live2d:
 # 音乐播放器
 aplayer:
   enable: true
-  meting: true    
+  meting: true  
 
 prism_plugin:
   mode: preprocess
