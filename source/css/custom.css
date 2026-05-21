@@ -5,3 +5,7 @@
   font-display: swap;
   src: url('/fonts/CircularBody.woff') format('woff');
 }
+
+body {
+  font-family: 'Butterfly Font', sans-serif !important;
+}
