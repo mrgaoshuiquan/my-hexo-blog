@@ -17,6 +17,7 @@ body {
 /* 手机端看板娘位置 */
 @media (max-width: 768px) {
   #live2d-widget {
-    right: 0px !important;
+    right: 5px !important;
+    bottom: -30px !important;
   }
 }
