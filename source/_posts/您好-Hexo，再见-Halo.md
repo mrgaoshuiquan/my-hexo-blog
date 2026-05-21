@@ -1,6 +1,7 @@
 ---
 title: 🎨您好 Hexo，再见 Halo
 date: 2026-05-20
+sticky: 888
 tags:
   - Hexo
   - Halo
