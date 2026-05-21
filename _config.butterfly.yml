@@ -1,0 +1,127 @@
+# 网站头像
+avatar:
+  img: /img/avatar.png
+  effect: true
+
+# 网站 favicon
+favicon: /favicon.ico
+
+# 首页顶部图
+index_img: https://api.horosama.com/random.php
+
+# 首页打字机效果
+subtitle:
+  enable: true
+  effect: true
+  loop: true
+  source: false
+  sub:
+    - 小时候觉得大城市的地铁好有档次
+    - 长大后才发现这是牛马传送带
+    - 人最大的问题就是太清醒了，明白太多，快乐太少。
+    - 生活嘛，就是一边想躺平，一边又不得不重启。
+    - 我曾以为人生会越来越顺，后来——算了，不说了，你懂的。
+    - 人生就像猫：偶尔饿、偶尔困、偶尔傻——但要保持可爱。
+    - 人生有时候走得慢一点没关系，重要的是方向一直在。
+    - 越长大越明白：不是所有的坚持都有结果，但所有的结果都曾经坚持过。
+    - 有些路必须一个人走完，那不是孤独，是成长的必修课。
+    - 经历越多越沉默，不是看得开了，而是明白了说了也没用。
+    - 人生很公平，它不会给你所有，但会在某一刻让你明白所有。
+    - 有时候不是生活变好了，而是你变得能扛了。
+    - 懂得了沉默，才学会了释怀；看清了人心，才学会了放下。
+    - 时间从不会回答问题，它只会慢慢把答案藏进你的经历里。
+    - 你无法叫醒一个装睡的人，也无法留住一个不想留下的人。
+    - 越想抓住的东西，越容易从手心里溜走。
+    - 长大后才懂：能治愈你的永远不是道理，而是有人真的在乎你。
+    - 心软是病，但你是那种戒不掉的人。
+    - 人生没有如果，只有后果和结果。能做的只是尽力，然后交给明天。
+    - 你以为跨不过去的那道坎，回头看，不过是人生的一块垫脚石。
+    - 生活没给你的温柔，会在未来的某个清晨还给你。
+    - 愿你最终找到一个地方，可以安放你的故事、疲惫与热望。
+    - 记录生活，分享思考，探索无限可能
+    - Email:666@gaoops.com
+
+fireworks: true     # 点击烟花
+click_heart: true     # 点击爱心
+
+# 彩带背景
+canvas_ribbon:
+  enable: true
+  size: 150
+  alpha: 0.6
+  zIndex: -1
+
+#评论功能
+comments:
+  use: Waline
+  text: true
+  lazyload: false
+  count: true
+  card_post_count: false
+
+waline:
+  serverURL: https://comment.gaoops.com
+  option:
+
+# 黑夜模式
+darkmode:
+  enable: true
+  button: true
+
+# 社交图标
+social:
+  fab fa-github: https://github.com/mrgaoshuiquan || Github
+  fas fa-envelope: mailto:test@test.com || Email
+
+# 页脚
+footer:
+  owner:
+    enable: true
+    since: 2026
+
+# 注入 JS
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/custom.css">
+
+  bottom:
+    - <script src="/js/fireworks.js"></script>
+
+# 字体
+font:
+  global-font-size:
+  code-font-size:
+  font-family: "'Butterfly Font', sans-serif"
+  code-font-family:
+
+menu:
+  首页: / || fas fa-home
+
+  在线免费追剧影视:  
+    DecoTV（自媒体影视）: https://tv.gaoops.com || fas fa-video
+    MoonTV（免费影视）: https://tv2.gaoops.com/ || fas fa-clapperboard
+    ManTV（不对外）: https://mantv.gaoops.com/ || fas fa-film
+    
+    
+  在线免费听歌:
+    音乐站: https://music.gaoops.top/ || fas fa-music
+
+  Cloud网盘: https://alist.gaoops.com || fas fa-cloud
+
+  网站资源导航:
+    导航站: https://books.gaoops.com/ || fas fa-map-signs
+
+  留言板:: /messageboard/ || fas fa-comment-dots
+   
+  公益站点:
+    TVBox、影视仓、猫影视订阅链接: http://tvbox-public.gaoops.top/ || fas fa-tv 
+    IPTV直播源: https://iptv.gaoops.top/txt || fas fa-broadcast-tower
+    OrionTV订阅链接: https://tv.gaoops.com/ || fas fa-satellite-dish
+    聊天软件: https://gaochat.gaoops.com/ || fas fa-comments
+    传奇私服(切勿充值): https://ice.gaoops.com/ || fas fa-dragon
+
+  Hello MR 青春无处安放:
+    hello文章: /archives/hello || fas fa-file-alt
+    hello标签: /tags/hello || fas fa-tags
+
+  关于: /about || fas fa-address-card  
