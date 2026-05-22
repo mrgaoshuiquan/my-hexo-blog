@@ -47,7 +47,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/mrgaoshuiquan || Github || '#24292e'
-  fab fa-qq: tencent://message/?uin=361498640 || QQ || '#12B7F5'
+  fab fa-qq: https://wpa.qq.com/msgrd?v=3&uin=361498640&site=qq&menu=yes || QQ || '#12B7F5'
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
