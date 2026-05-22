@@ -3,10 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 失忆的普信男（Ops Gao Blog）
+title: 失忆的普信男(Ops Gao Blog)
 subtitle: '青春无处安放'
-description: '一个普信男运维工程师，专注运维15年'
+description: '😏 不太谦虚的运维工程师 · 15年老炮
+              🐧 Linux · 🐳 Docker · 🎬免费影视 '              
 keywords:
+  - Linux
+  - 运维
+  - Hexo
+  - Docker
+  - Vercel
+  - 技术博客
+  - 免费影视
 author: 青春无处安放
 language: zh-CN
 timezone: 'Asia/Shanghai'
