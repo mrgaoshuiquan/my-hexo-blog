@@ -55,14 +55,16 @@ canvas_ribbon:
 comments:
   use: Waline
   text: true
-  lazyload: false
+  lazyload: true
   count: true
-  card_post_count: false
+  card_post_count: true
 
 waline:
   serverURL: https://comment.gaoops.com
+  pageview: true
   option:
-
+    locale:
+      placeholder: '你的想法比点赞更珍贵 💬，留下你的足迹，哪怕只是 hi～'  # 自定义评论框提示语
 # 黑夜模式
 darkmode:
   enable: true
