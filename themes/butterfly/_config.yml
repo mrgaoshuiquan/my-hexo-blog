@@ -598,12 +598,10 @@ valine:
 waline:
   serverURL: https://comment.gaoops.com
   pageview: true
-  bg: /img/comment_bg.jpg
   option:
-    avatar: wavatar
+    avatar: robohash
+    avatarCDN: https://cravatar.cn/avatar/
   # Use Waline pageview count as the page view count
-  option:
-
 # Utterances
 # https://utteranc.es/
 utterances:

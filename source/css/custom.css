@@ -21,3 +21,10 @@ body {
     bottom: -60px !important;
   }
 }
+/* 替换 Waline 匿名默认头像 */
+img.wl-user-avatar[src*="libravatar"] {
+  content: url('https://api.dicebear.com/7.x/adventurer/svg?seed=default');
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -62,10 +62,11 @@ comments:
 waline:
   serverURL: https://comment.gaoops.com
   pageview: true
-  bg: /img/comment_bg.jpg
   option:
     locale:
       placeholder: '你的想法比点赞更珍贵 💬，留下你的足迹，哪怕只是 hi～'  # 自定义评论框提示语
+  avatar: robohash
+  avatarCDN: https://cravatar.cn/avatar/   
 # 黑夜模式
 darkmode:
   enable: true
