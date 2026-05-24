@@ -25,15 +25,5 @@ if nav
           != `&copy;&nbsp;${sinceYear} - ${currentYear} By ${config.author}`
         else
           != `&copy;&nbsp;${currentYear} By ${config.author}`
-    if copyright.enable
-      - const v = copyright.version ? getVersion() : false
-      span.framework-info
-        if owner.enable && nav
-          span.footer-separator |
-        span= _p('footer.framework') + ' '
-        a(href='https://gaoops.com')= `Hexo${ v ? ' ' + v.hexo : '' }`
-        span.footer-separator |
-        span= _p('footer.theme') + ' '
-        a(href='https://gaoops.com')= `Butterfly${ v ? ' ' + v.theme : '' }`
   if theme.footer.custom_text
     .footer_custom_text!= theme.footer.custom_text
