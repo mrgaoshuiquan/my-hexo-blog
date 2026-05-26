@@ -46,7 +46,7 @@ This repository contains a personal TVBox / 影视仓 configuration with aggrega
 
 🌐 CF加速
 
-```URL
+```
 https://tvbox-public.gaoops.top/
 ```
 
@@ -60,7 +60,7 @@ https://tvbox-public.gaoops.top/
 
 🌐 CF CDN
 
-```URL
+```
 https://tvbox-public.gaoops.top/
 ```
 
