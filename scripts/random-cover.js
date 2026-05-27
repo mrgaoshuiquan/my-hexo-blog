@@ -8,7 +8,7 @@ hexo.extend.filter.register('before_post_render', function(data) {
       hash |= 0;
     }
     const seed = Math.abs(hash);
-    data.cover = `https://www.loliapi.com/acg?seed=${seed}`;
+    data.cover = `https://wallpapers.gaoops.top/Lolita?seed=${seed}`;
   }
   return data;
 });

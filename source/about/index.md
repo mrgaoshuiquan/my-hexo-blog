@@ -2,7 +2,7 @@
 title: 关于我
 date: 2026-05-21 21:00:00
 type: about
-top_img: https://www.loliapi.com/acg?seed=messageboard
+top_img: https://wallpapers.gaoops.top/Lolita?seed=messageboard
 comments: true
 ---
 
