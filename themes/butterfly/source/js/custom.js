@@ -7,7 +7,7 @@
     );
 
     imgs.forEach((img) => {
-      const url = "https://wallpapers.gaoops.top/Lolita?random=" + Date.now() + Math.random();
+      const url = "https://www.loliapi.com/acg?random=" + Date.now() + Math.random();
       img.src = url;
     });
 
